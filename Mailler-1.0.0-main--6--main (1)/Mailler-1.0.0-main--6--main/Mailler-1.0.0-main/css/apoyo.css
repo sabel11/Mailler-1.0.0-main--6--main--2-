@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arima', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #d1c4e9;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.tab {
+    flex: 1;
+    padding: 15px;
+    text-align: center;
+    background: #d1c4e9;
+    margin: 0 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.tab:hover {
+    background: #d1c4e9;
+}
+.content {
+    margin-top: 20px;
+}
+.card {
+    background:#d1c4e9;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.card-header {
+    font-size: 18px;
+    font-weight: bold;
+}
+.card-body {
+    margin-top: 10px;
+}
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+}
+.day {
+    padding: 15px;
+    background: #d1c4e9;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.day:hover {
+    background: #d1c4e9;
+}
+.today {
+    background:  #d1c4e9;
+    color: white;
+    font-weight: bold;
+}
+.btn {
+    padding: 10px 15px;
+    background: #d1c4e9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.btn:hover {
+    background:  #d1c4e9;
+}
+.badge {
+    padding: 5px 10px;
+    background: #d1c4e9;
+    border-radius: 5px;
+    margin-left: 10px;
+}

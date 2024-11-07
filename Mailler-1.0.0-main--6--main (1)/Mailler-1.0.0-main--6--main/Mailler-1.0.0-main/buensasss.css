@@ -1,0 +1,66 @@
+.container {
+    max-width: 500px;
+    padding: 40px;
+    background: #e9e7e7;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #4A4A4A;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #4A4A4A;
+}
+select, .flatpickr-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.time-container {
+    display: flex;
+    align-items: center¿;
+    justify-content: center;
+    gap: 40px;
+}
+input[type="time"] {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 70%;
+    font-size: 16px;
+    background-color: #e5d3ff; /* Color morado claro */
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #c389df; /* Color personalizado */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #a768b5; /* Color más oscuro al pasar el mouse */
+}
+.image-container {
+    margin: 40px 0;
+}
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
